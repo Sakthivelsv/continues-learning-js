@@ -12,7 +12,9 @@ let players = ["Rohit","Virat","Rahul","Sundar"];
 
 //let players = ["Rohit","Virat","Rahul","Sundar","Siraj","Aswin"];
 
-console.log('we have ' + players.length + ' best players');
+//console.log('we have ' + players.length + ' best players');
 
+// Array join ()
 
-
+let names = players.join();
+document.getElementById("demo").innerHTML = names;
