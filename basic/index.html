@@ -2,36 +2,37 @@
 <html>
     <head>
         <title>Java script</title>
+        <style>
+            h1 {text-align: center;}
+            body {
+        background: rgb(232, 228, 228);
+        }
+    .clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #11191b;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    }
+        </style>
+        
         
     </head>
     <body>
+    
 
 
 
-        <h1 id="demo1">Alignment</h1>
+        <h1 id="demo1">Digital Clock</h1>
 
-     <!----
-     <h1>Input Tracking in JS</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, sed!</p>
-        <p id="secondPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, cum?</p>
-        <p class="thirdPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptatibus!</p>
-        <p>Lorem ipsum dolor sit amet!!!!.</p>
+        <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
 
-        <input type="text", id="data" placeholder="search field">
+    
         
-
-        <button onclick="search()">Search</button>
-        <button onmouseover="revert()">add</button>
-        
-        <ul>
-            <li>1</li>
-            <li>2</li>
-        </ul> 
-        -->
-        <!--<p id="demo" style="display:none">12334kiki</p>   
-        <p>Lorem ipsum dolor sit amet!!!!.</p> -->
-        
-        <script src="./js/Alignment.js"></script>
+        <script src="js/DC.js"></script>
 
     </body>
         
